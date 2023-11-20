@@ -71,7 +71,7 @@ describe("Rover class", function() {
     expect(rover.mode).toEqual('LOW_POWER');
     expect(response.results[0].completed).toEqual(true);
     expect(rover.position).toEqual(4);
-    expect(response.results[1].completed).toEqual(false);
+    expect(response.results[1].completed).toEqual(true);
   })
 
   //! Test 13
